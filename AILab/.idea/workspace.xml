@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b3a5212-aaa5-47b9-b844-fd8e3321d154" name="Changes" comment="" />
+    <list default="true" id="7b3a5212-aaa5-47b9-b844-fd8e3321d154" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AGB_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/AGB_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROCcurveAB.png" beforeDir="false" afterPath="$PROJECT_DIR$/ROCcurveAB.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rf_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf_class.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +55,7 @@
     "Python.AGB_class.executor": "Run",
     "Python.Classification.executor": "Run",
     "Python.Regression.executor": "Run",
+    "Python.lab.executor": "Run",
     "Python.lab3class.executor": "Run",
     "Python.lab3reg.executor": "Run",
     "Python.prepClass.executor": "Run",
@@ -63,7 +69,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lab4",
+    "git-widget-placeholder": "#4 on lab4",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
