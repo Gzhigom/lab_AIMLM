@@ -1,38 +1,37 @@
 import pandas as pd
-
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report
-data = pd.DataFrame({
-    "text": [
-        "Win a free lottery prize now",
-        "Limited offer buy today",
-        "Meeting scheduled at 10 am",
-        "Project report attached",
-        "Congratulations you won money",
-        "Let's discuss the budget"
-    ],
-    "spam": [1, 1, 0, 0, 1, 0]
-})
+from sklearn.metrics import classification_report, accuracy_score
+from sklearn.neural_network import MLPClassifier
 
+data = pd.read_csv('spam_ham_dataset.csv')
+data = data[['text', 'label_num']]
 X = data["text"]
-y = data["spam"]
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y,
-    test_size=0.33,
-    random_state=42,
-    stratify=y
-)
+y = data["label_num"]
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
+
 model = Pipeline(steps=[
     ("tfidf", TfidfVectorizer(
         lowercase=True,
-        stop_words="english"  # для русского нужен другой список/подход
+        stop_words="english"
     )),
-    ("clf", LogisticRegression(max_iter=1000))
+    ("clf", MLPClassifier(
+        hidden_layer_sizes=(32, 16),
+        activation='relu',
+        solver='adam',
+        max_iter=100,
+        random_state=42,
+        early_stopping=True,
+        validation_fraction=0.2
+    ))
 ])
 
 model.fit(X_train, y_train)
+
 y_pred = model.predict(X_test)
-print(classification_report(y_test, y_pred))
+
+print("MLP Accuracy:", accuracy_score(y_test, y_pred))
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred, target_names=["Не спам", "Спам"]))
