@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b3a5212-aaa5-47b9-b844-fd8e3321d154" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGB_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/AGB_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROCcurveAB.png" beforeDir="false" afterPath="$PROJECT_DIR$/ROCcurveAB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rf_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/rf_class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,32 +44,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.1labAI.executor": "Run",
-    "Python.2lab.executor": "Run",
-    "Python.AGB_class.executor": "Run",
-    "Python.Classification.executor": "Run",
-    "Python.Regression.executor": "Run",
-    "Python.lab.executor": "Run",
-    "Python.lab3class.executor": "Run",
-    "Python.lab3reg.executor": "Run",
-    "Python.prepClass.executor": "Run",
-    "Python.rf_class.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.test2.executor": "Run",
-    "Python.test3.executor": "Run",
-    "Python.test4.executor": "Run",
-    "Python.е2.executor": "Run",
-    "Python.е3.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#4 on lab4",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.1labAI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2lab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AGB_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Classification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Regression.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab3class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab3reg.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prepClass.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rf_class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.е2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.е3.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#4 on lab4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
